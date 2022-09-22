@@ -36,7 +36,7 @@ function Conditional({ count }) {
 
 {{< file "react" "App.js" >}}
 ```jsx
-{count && 2 === 0 ? <h1>Count is even</h1> }
+{count && 2 === 0 && <h1>Count is even</h1> }
 ```
 
 ## Challenge
